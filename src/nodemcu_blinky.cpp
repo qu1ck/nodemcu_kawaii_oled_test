@@ -30,7 +30,6 @@ void setup() {
   display.display();
 }
 
-uint8_t sz = 2;
 uint8_t iteration = 0;
 uint8_t x, y, w, h;
 
@@ -78,10 +77,10 @@ void drawSmiley() {
 }
 
 void loop() {
-  if (sz == 30 || needClear) {
+  if (iteration == 30 || needClear) {
     needClear = false;
     display.clear();
-    sz = 0;
+    iteration = 0;
   }
   switch (state) {
   case 0:
@@ -98,6 +97,6 @@ void loop() {
     break;
   }
   display.display();
-  sz++;
+  iteration++;
   delay(1);
 }
