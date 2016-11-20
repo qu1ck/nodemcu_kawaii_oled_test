@@ -9,7 +9,7 @@ Dependencies:
 * ESP8266_SSD1306 driver: `platformio lib install 562`
 
 Note that as of this writing (11/19/2016) latest published version of SSD1306
-driver lib has annoying bugs with drawing rectangles that are fixed in trunc [here](https://github.com/squix78/esp8266-oled-ssd1306/commit/3759e51365fadb78955811457295d8b82f90680a)
+driver lib has annoying bugs with drawing rectangles that are fixed in trunk [here](https://github.com/squix78/esp8266-oled-ssd1306/commit/3759e51365fadb78955811457295d8b82f90680a)
 and [here](https://github.com/squix78/esp8266-oled-ssd1306/commit/abd5e8e57f1b57e43074e44e9ec34a7585d97f15).
 You may want to patch those in.
 
