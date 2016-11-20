@@ -16,7 +16,7 @@ You may want to patch those in.
 To make it work connect SDA and SCL to D1 and D2 respectively, hook up a button
 to pull D3 to the ground and upload the firmware.
 
-On a press of a button the programm will circulate between following modes:
+On a press of a button the program will circulate between following modes:
 * Draw random rectangles
 * Draw random circles
 * Draw random lines
